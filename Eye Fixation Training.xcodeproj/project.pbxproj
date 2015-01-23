@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		3FDC217E1A71D8F300D0FA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC217D1A71D8F300D0FA8D /* main.m */; };
-		3FDC21811A71D8F300D0FA8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21801A71D8F300D0FA8D /* AppDelegate.m */; };
-		3FDC21841A71D8F300D0FA8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21831A71D8F300D0FA8D /* ViewController.m */; };
-		3FDC21871A71D8F300D0FA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC21851A71D8F300D0FA8D /* Main.storyboard */; };
-		3FDC21891A71D8F300D0FA8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC21881A71D8F300D0FA8D /* Images.xcassets */; };
-		3FDC218C1A71D8F300D0FA8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC218A1A71D8F300D0FA8D /* LaunchScreen.xib */; };
 		3FDC21981A71D8F300D0FA8D /* Eye_Fixation_TrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21971A71D8F300D0FA8D /* Eye_Fixation_TrainingTests.m */; };
+		3FDC21AC1A71D91000D0FA8D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC21A11A71D91000D0FA8D /* Main_iPhone.storyboard */; };
+		3FDC21AD1A71D91000D0FA8D /* EFTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21A31A71D91000D0FA8D /* EFTViewController.m */; };
+		3FDC21AE1A71D91000D0FA8D /* EFTUserSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21A51A71D91000D0FA8D /* EFTUserSettingsTableViewController.m */; };
+		3FDC21AF1A71D91000D0FA8D /* EFTNumberOfTapsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21A71A71D91000D0FA8D /* EFTNumberOfTapsTableViewCell.m */; };
+		3FDC21B01A71D91000D0FA8D /* EFTSelectCrossSizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21A91A71D91000D0FA8D /* EFTSelectCrossSizeTableViewController.m */; };
+		3FDC21B11A71D91000D0FA8D /* EFTCongratulationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21AB1A71D91000D0FA8D /* EFTCongratulationsViewController.m */; };
+		3FDC21B81A71D92400D0FA8D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC21B31A71D92400D0FA8D /* Main_iPad.storyboard */; };
+		3FDC21B91A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21B51A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewCell.m */; };
+		3FDC21BA1A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21B71A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewController.m */; };
+		3FDC21BE1A71D93100D0FA8D /* EFTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21BD1A71D93100D0FA8D /* EFTConstants.m */; };
+		3FDC21C21A71D95100D0FA8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC21BF1A71D95100D0FA8D /* Images.xcassets */; };
+		3FDC21C31A71D95100D0FA8D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC21C01A71D95100D0FA8D /* Launch Screen.xib */; };
+		3FDC21C41A71D95100D0FA8D /* Black Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC21C11A71D95100D0FA8D /* Black Launch Screen.xib */; };
+		3FDC21C71A71D96200D0FA8D /* EFTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC21C61A71D96200D0FA8D /* EFTAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +39,32 @@
 		3FDC21781A71D8F300D0FA8D /* Eye Fixation Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eye Fixation Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDC217C1A71D8F300D0FA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FDC217D1A71D8F300D0FA8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FDC217F1A71D8F300D0FA8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3FDC21801A71D8F300D0FA8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FDC21821A71D8F300D0FA8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FDC21831A71D8F300D0FA8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3FDC21861A71D8F300D0FA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FDC21881A71D8F300D0FA8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3FDC218B1A71D8F300D0FA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3FDC21911A71D8F300D0FA8D /* Eye Fixation TrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye Fixation TrainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDC21961A71D8F300D0FA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FDC21971A71D8F300D0FA8D /* Eye_Fixation_TrainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eye_Fixation_TrainingTests.m; sourceTree = "<group>"; };
+		3FDC21A11A71D91000D0FA8D /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3FDC21A21A71D91000D0FA8D /* EFTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTViewController.h; sourceTree = "<group>"; };
+		3FDC21A31A71D91000D0FA8D /* EFTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTViewController.m; sourceTree = "<group>"; };
+		3FDC21A41A71D91000D0FA8D /* EFTUserSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTUserSettingsTableViewController.h; sourceTree = "<group>"; };
+		3FDC21A51A71D91000D0FA8D /* EFTUserSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTUserSettingsTableViewController.m; sourceTree = "<group>"; };
+		3FDC21A61A71D91000D0FA8D /* EFTNumberOfTapsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTNumberOfTapsTableViewCell.h; sourceTree = "<group>"; };
+		3FDC21A71A71D91000D0FA8D /* EFTNumberOfTapsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTNumberOfTapsTableViewCell.m; sourceTree = "<group>"; };
+		3FDC21A81A71D91000D0FA8D /* EFTSelectCrossSizeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTSelectCrossSizeTableViewController.h; sourceTree = "<group>"; };
+		3FDC21A91A71D91000D0FA8D /* EFTSelectCrossSizeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTSelectCrossSizeTableViewController.m; sourceTree = "<group>"; };
+		3FDC21AA1A71D91000D0FA8D /* EFTCongratulationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTCongratulationsViewController.h; sourceTree = "<group>"; };
+		3FDC21AB1A71D91000D0FA8D /* EFTCongratulationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTCongratulationsViewController.m; sourceTree = "<group>"; };
+		3FDC21B31A71D92400D0FA8D /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		3FDC21B41A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTiPadSelectCrossSizeTableViewCell.h; sourceTree = "<group>"; };
+		3FDC21B51A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTiPadSelectCrossSizeTableViewCell.m; sourceTree = "<group>"; };
+		3FDC21B61A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTiPadSelectCrossSizeTableViewController.h; sourceTree = "<group>"; };
+		3FDC21B71A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTiPadSelectCrossSizeTableViewController.m; sourceTree = "<group>"; };
+		3FDC21BC1A71D93100D0FA8D /* EFTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTConstants.h; sourceTree = "<group>"; };
+		3FDC21BD1A71D93100D0FA8D /* EFTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTConstants.m; sourceTree = "<group>"; };
+		3FDC21BF1A71D95100D0FA8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FDC21C01A71D95100D0FA8D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		3FDC21C11A71D95100D0FA8D /* Black Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Black Launch Screen.xib"; sourceTree = "<group>"; };
+		3FDC21C51A71D96200D0FA8D /* EFTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTAppDelegate.h; sourceTree = "<group>"; };
+		3FDC21C61A71D96200D0FA8D /* EFTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFTAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +106,13 @@
 		3FDC217A1A71D8F300D0FA8D /* Eye Fixation Training */ = {
 			isa = PBXGroup;
 			children = (
-				3FDC217F1A71D8F300D0FA8D /* AppDelegate.h */,
-				3FDC21801A71D8F300D0FA8D /* AppDelegate.m */,
-				3FDC21821A71D8F300D0FA8D /* ViewController.h */,
-				3FDC21831A71D8F300D0FA8D /* ViewController.m */,
-				3FDC21851A71D8F300D0FA8D /* Main.storyboard */,
-				3FDC21881A71D8F300D0FA8D /* Images.xcassets */,
-				3FDC218A1A71D8F300D0FA8D /* LaunchScreen.xib */,
+				3FDC21B21A71D91400D0FA8D /* iPhone */,
+				3FDC21BB1A71D92700D0FA8D /* iPad */,
+				3FDC21BF1A71D95100D0FA8D /* Images.xcassets */,
+				3FDC21C01A71D95100D0FA8D /* Launch Screen.xib */,
+				3FDC21C11A71D95100D0FA8D /* Black Launch Screen.xib */,
+				3FDC21BC1A71D93100D0FA8D /* EFTConstants.h */,
+				3FDC21BD1A71D93100D0FA8D /* EFTConstants.m */,
 				3FDC217B1A71D8F300D0FA8D /* Supporting Files */,
 			);
 			path = "Eye Fixation Training";
@@ -96,6 +121,8 @@
 		3FDC217B1A71D8F300D0FA8D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FDC21C51A71D96200D0FA8D /* EFTAppDelegate.h */,
+				3FDC21C61A71D96200D0FA8D /* EFTAppDelegate.m */,
 				3FDC217C1A71D8F300D0FA8D /* Info.plist */,
 				3FDC217D1A71D8F300D0FA8D /* main.m */,
 			);
@@ -117,6 +144,36 @@
 				3FDC21961A71D8F300D0FA8D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FDC21B21A71D91400D0FA8D /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3FDC21A11A71D91000D0FA8D /* Main_iPhone.storyboard */,
+				3FDC21A21A71D91000D0FA8D /* EFTViewController.h */,
+				3FDC21A31A71D91000D0FA8D /* EFTViewController.m */,
+				3FDC21A41A71D91000D0FA8D /* EFTUserSettingsTableViewController.h */,
+				3FDC21A51A71D91000D0FA8D /* EFTUserSettingsTableViewController.m */,
+				3FDC21A61A71D91000D0FA8D /* EFTNumberOfTapsTableViewCell.h */,
+				3FDC21A71A71D91000D0FA8D /* EFTNumberOfTapsTableViewCell.m */,
+				3FDC21A81A71D91000D0FA8D /* EFTSelectCrossSizeTableViewController.h */,
+				3FDC21A91A71D91000D0FA8D /* EFTSelectCrossSizeTableViewController.m */,
+				3FDC21AA1A71D91000D0FA8D /* EFTCongratulationsViewController.h */,
+				3FDC21AB1A71D91000D0FA8D /* EFTCongratulationsViewController.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		3FDC21BB1A71D92700D0FA8D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3FDC21B31A71D92400D0FA8D /* Main_iPad.storyboard */,
+				3FDC21B41A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewCell.h */,
+				3FDC21B51A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewCell.m */,
+				3FDC21B61A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewController.h */,
+				3FDC21B71A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewController.m */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FDC21871A71D8F300D0FA8D /* Main.storyboard in Resources */,
-				3FDC218C1A71D8F300D0FA8D /* LaunchScreen.xib in Resources */,
-				3FDC21891A71D8F300D0FA8D /* Images.xcassets in Resources */,
+				3FDC21C21A71D95100D0FA8D /* Images.xcassets in Resources */,
+				3FDC21C31A71D95100D0FA8D /* Launch Screen.xib in Resources */,
+				3FDC21C41A71D95100D0FA8D /* Black Launch Screen.xib in Resources */,
+				3FDC21AC1A71D91000D0FA8D /* Main_iPhone.storyboard in Resources */,
+				3FDC21B81A71D92400D0FA8D /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +278,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FDC21841A71D8F300D0FA8D /* ViewController.m in Sources */,
-				3FDC21811A71D8F300D0FA8D /* AppDelegate.m in Sources */,
+				3FDC21AD1A71D91000D0FA8D /* EFTViewController.m in Sources */,
+				3FDC21AF1A71D91000D0FA8D /* EFTNumberOfTapsTableViewCell.m in Sources */,
+				3FDC21AE1A71D91000D0FA8D /* EFTUserSettingsTableViewController.m in Sources */,
+				3FDC21B01A71D91000D0FA8D /* EFTSelectCrossSizeTableViewController.m in Sources */,
+				3FDC21B11A71D91000D0FA8D /* EFTCongratulationsViewController.m in Sources */,
+				3FDC21BE1A71D93100D0FA8D /* EFTConstants.m in Sources */,
+				3FDC21B91A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewCell.m in Sources */,
 				3FDC217E1A71D8F300D0FA8D /* main.m in Sources */,
+				3FDC21C71A71D96200D0FA8D /* EFTAppDelegate.m in Sources */,
+				3FDC21BA1A71D92400D0FA8D /* EFTiPadSelectCrossSizeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,25 +309,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		3FDC21851A71D8F300D0FA8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FDC21861A71D8F300D0FA8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3FDC218A1A71D8F300D0FA8D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FDC218B1A71D8F300D0FA8D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		3FDC21991A71D8F300D0FA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -280,7 +327,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeremy Schreck (WE8935L77H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeremy Schreck (WE8935L77H)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -300,6 +348,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "55afeffc-1d79-486b-9b85-7c39b96a119f";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,7 +371,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeremy Schreck (WE8935L77H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeremy Schreck (WE8935L77H)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -335,6 +385,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "55afeffc-1d79-486b-9b85-7c39b96a119f";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -345,9 +396,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeremy Schreck (WE8935L77H)";
 				INFOPLIST_FILE = "Eye Fixation Training/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -355,9 +408,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeremy Schreck (WE8935L77H)";
 				INFOPLIST_FILE = "Eye Fixation Training/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
