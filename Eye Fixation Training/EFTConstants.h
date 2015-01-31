@@ -30,7 +30,7 @@
 
 #define kEndSizeFactor              1/3
 #define kShrinkFactor               0.8 // maybe change this to be user setting
-#define kiPadSizeFactor               2
+#define kiPadSizeFactor               1 // Making it the same size on iPad. Can change this later
 #define kiPadRowHeightExtraSpace     10
 
 #define kStartSizeSetting                   @"Start Size Setting"
